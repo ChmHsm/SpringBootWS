@@ -43,34 +43,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.4</version>
-                <executions>
-                    <execution>
-                        <id>copy-dependencies</id>
-                        <phase>package</phase>
-                        <goals><goal>copy-dependencies</goal></goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-maven-plugin</artifactId>
-                <version>1.1.3</version>
-                <configuration>
-                    <appName>AppName</appName>
-                    <includeTarget>false</includeTarget>
-                    <includes>
-                        <include>${basedir}/${full-artifact-name}</include>
-                    </includes>
-                    <jdkVersion>1.8</jdkVersion>
-                    <processTypes>
-                        <web>java $JAVA_OPTS -jar ${full-artifact-name}</web>
-                    </processTypes>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 

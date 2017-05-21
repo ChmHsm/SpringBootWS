@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/hoteoas/hoteoas.iml" filepath="$PROJECT_DIR$/hoteoas/hoteoas.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
     </modules>
   </component>
 </project>

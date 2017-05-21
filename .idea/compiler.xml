@@ -27,6 +27,7 @@
         <module name="hoteoas" />
         <module name="model" />
         <module name="rest" />
+        <module name="security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="hoteoas" target="1.8" />
       <module name="model" target="1.8" />
       <module name="rest" target="1.8" />
+      <module name="security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

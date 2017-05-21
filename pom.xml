@@ -25,6 +25,7 @@
         <module>model</module>
         <module>rest</module>
         <module>hoteoas</module>
+        <module>security</module>
     </modules>
 
     <dependencies>

@@ -23,12 +23,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="hateoas" />
+        <module name="hoteoas" />
         <module name="model" />
         <module name="rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BookmarksWS" target="1.8" />
+      <module name="hateoas" target="1.8" />
+      <module name="hoteoas" target="1.8" />
       <module name="model" target="1.8" />
       <module name="rest" target="1.8" />
     </bytecodeTargetLevel>
